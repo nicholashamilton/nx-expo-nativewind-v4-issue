@@ -49,4 +49,4 @@ console.log('isNativeWindVerified', isNativeWindVerified);
 
 ```
 ERROR  Error: Nativewind received no data. Please refer to http://nativewind.dev/troubleshooting#no-data
-```# nx-expo-nativewind-v4
+```
