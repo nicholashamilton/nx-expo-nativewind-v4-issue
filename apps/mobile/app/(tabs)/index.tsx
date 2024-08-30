@@ -8,8 +8,7 @@ import { verifyInstallation } from 'nativewind';
 export default function TabOneScreen() {
 
   // Check if nativewind is working
-  const isNativeWindVerified = verifyInstallation();
-  console.log('isNativeWindVerified', isNativeWindVerified);
+  verifyInstallation();
 
   return (
     <View style={styles.container}>

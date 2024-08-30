@@ -41,10 +41,9 @@ For example the `Text` component in `apps/mobile/app/(tabs)/index.tsx` is not st
 <Text className="text-red-500 text-2xl">Tab One</Text>
 ```
 
-Adding `verifyInstallation` to `apps/mobile/app/(tabs)/index.tsx` will print the following error:
+Adding `verifyInstallation` to `apps/mobile/app/(tabs)/index.tsx` will give the following error:
 ```tsx
-const isNativeWindVerified = verifyInstallation();
-console.log('isNativeWindVerified', isNativeWindVerified);
+verifyInstallation();
 ```
 
 ```
