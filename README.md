@@ -1,5 +1,8 @@
 # nx + expo-router + nativewind V4 issue
 
+Fix?:
+https://github.com/nativewind/nativewind/issues/1009
+
 <!-- https://github.com/nativewind/nativewind/issues/972 -->
 
 <!-- 
@@ -38,7 +41,7 @@ Nativewind V4 is not working with Expo Router.
 For example the `Text` component in `apps/mobile/app/(tabs)/index.tsx` is not styled.
 
 ```tsx
-<Text className="text-red-500 text-2xl">Tab One</Text>
+<Text className="text-red-500 text-2xl font-bold">Tab One</Text>
 ```
 
 Adding `verifyInstallation` to `apps/mobile/app/(tabs)/index.tsx` will give the following error:
@@ -49,3 +52,7 @@ verifyInstallation();
 ```
 ERROR  Error: Nativewind received no data. Please refer to http://nativewind.dev/troubleshooting#no-data
 ```
+
+Update: Switching to nativewind 4.0.36 from 4.1.1 fixes the verifyInstallation error.
+
+However, the styles are only applied on refresh and text-red-500 is still not working.

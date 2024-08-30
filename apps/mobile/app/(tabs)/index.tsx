@@ -12,7 +12,7 @@ export default function TabOneScreen() {
 
   return (
     <View style={styles.container}>
-      <Text className="text-red-500 text-2xl">Tab One</Text>
+      <Text className="text-3xl font-bold text-red-500">Tab One</Text>
       <View
         style={styles.separator}
         lightColor="#eee"
