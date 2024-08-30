@@ -8,11 +8,11 @@ import { verifyInstallation } from 'nativewind';
 export default function TabOneScreen() {
 
   // Check if nativewind is working
-  verifyInstallation();
+  // verifyInstallation();
 
   return (
     <View style={styles.container}>
-      <Text className="text-3xl font-bold text-red-500">Tab One</Text>
+      <Text className="font-bold text-red-500 text-6xl">Tab One</Text>
       <View
         style={styles.separator}
         lightColor="#eee"
