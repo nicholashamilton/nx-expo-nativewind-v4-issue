@@ -1,5 +1,7 @@
 # nx + expo-router + nativewind V4 issue
 
+<!-- https://github.com/nativewind/nativewind/issues/972 -->
+
 <!-- 
 https://github.com/nrwl/nx/discussions/21847?sort=old  
 
