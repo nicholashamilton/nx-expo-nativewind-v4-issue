@@ -53,6 +53,6 @@ verifyInstallation();
 ERROR  Error: Nativewind received no data. Please refer to http://nativewind.dev/troubleshooting#no-data
 ```
 
-Update: Switching to nativewind 4.0.36 from 4.1.1 fixes the verifyInstallation error.
+Update: Switching to nativewind from 4.1.1 to 4.0.35 fixes the `verifyInstallation` error.
 
-However, the styles are only applied on refresh and text-red-500 is still not working.
+However, the styles for text-red-500 are still not working.
